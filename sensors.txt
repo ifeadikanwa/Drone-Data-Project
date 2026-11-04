@@ -1,0 +1,7 @@
+Accelerometer
+Gyroscope
+Barometer
+Front range sensor
+Bottom range sensor
+Optical flow sensor
+Color sensors

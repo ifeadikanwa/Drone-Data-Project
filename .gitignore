@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Test, coverage, type checker, and linter outputs
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and secrets (keep example templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.aws/
+
+# Logs and local editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+
+# Generated drone telemetry exports
+flight_data.csv
+flight_data_*.csv
+
+# Local contribution notes
+/contributions.txt
